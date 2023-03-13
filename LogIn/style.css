@@ -9,7 +9,6 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 721px;
-    min-width: 0px;
 
 }
 div{
@@ -53,7 +52,8 @@ p{
 }
 
 #LogIncontent{
-    height: 420px;
+    position: absolute;
+    height: 50%;
     background-color: black;
 }
 
@@ -61,7 +61,7 @@ p{
     position: absolute;
     margin: auto;
     width: 75%;
-    height: 295px;
+    height: 280px;
     top: 75px;
     right: 0%;
     background: linear-gradient(164.01deg, rgba(255, 255, 255, 0.5) 4.69%, rgba(0, 0, 0, 0) 29.15%);
