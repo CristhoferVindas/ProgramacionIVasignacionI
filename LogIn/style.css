@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+#principal1{
+    background-color:black;
+    line-height: 1.6;
+}
+.principal2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 721px;
+
+}
+div{
+    position: relative;
+    margin: auto ;
+    width: 100%;
+}
+#Information{
+    background: radial-gradient(90% 300% at 0% 32.8%, rgba(22, 236, 236, 0.8) 0%, rgba(22, 236, 236, 0) 56.84%, rgba(22, 236, 236, 0.024) 78.31%);
+    padding-right: 10%;
+    padding-top: 3%;
+    text-align: right;
+}
+#description{
+    width: 80%;
+    left: 10%;
+    background-color: rgba(22, 236, 236, 1);
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: right;
+}
+
+#tittle{
+    color: white;
+    top: 100px;
+}
+p{
+    margin: auto;
+    color: white;
+}
+
+#btnVerBlog{
+    border-radius: 60px;
+    margin-bottom: 10%;
+    color: white;
+    width: 118px;
+    height: 43px;
+    border: 0px;
+    background-color: rgba(22, 236, 236, 1);
+}
+
+#LogIncontent{
+    position: absolute;
+    height: 50%;
+    background-color: black;
+}
+
+#LogInPage{
+    position: absolute;
+    margin: auto;
+    width: 75%;
+    height: 280px;
+    top: 75px;
+    right: 0%;
+    background: linear-gradient(164.01deg, rgba(255, 255, 255, 0.5) 4.69%, rgba(0, 0, 0, 0) 29.15%);
+}
+#user{
+    top: 25%;
+    background:white url(/img/usuario-de-perfil.png) no-repeat 95% 50%;
+    background-size:10%;
+}
+#password{
+    top: 50%;
+    background: white url(img/bloqueado.png) no-repeat 95% 50%;
+    background-size: 10%;
+}
+input{
+    border: 0px;
+    position: absolute;
+    border-radius: 60px;
+    right: 10%;
+    height: 17%;
+    width: 55%;
+    text-align: left;
+    text-indent: 10%;
+}
+#btnLogIn{
+    position: absolute;
+    border-radius: 60px;
+    top: 75%;
+    right: 10%;
+    height: 17%;
+    width: 55%;
+    text-align: left;
+    text-indent: 10%;
+    background: white url(img/check.png) no-repeat 95% 50%;
+    background-size: 10%;
+    border: 0px;
+    color: rgba(22, 236, 236, 1);
+}
+
+#lente{
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    left: -30%;
+    z-index: 1;
+}
+
+#lana{
+    position: absolute;
+    top: 150px;
+    width: 25%;
+    height: 620px;
+    z-index: 1;
+    opacity: 100%;
+}
